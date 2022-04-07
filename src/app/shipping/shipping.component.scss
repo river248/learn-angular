@@ -1,0 +1,8 @@
+@import '../../styles.scss';
+
+.shipping-wapper {
+  background-color: antiquewhite;
+  &__item {
+    @include itemCard;
+  }
+}

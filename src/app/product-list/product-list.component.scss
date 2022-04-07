@@ -1,0 +1,17 @@
+.products {
+  h2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+}

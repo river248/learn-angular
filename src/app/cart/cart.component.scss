@@ -1,0 +1,29 @@
+@import '../../styles.scss';
+
+.cart-wrapper {
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &__item {
+    @include itemCard;
+  }
+
+  form {
+    width: 300px;
+  }
+
+  &__form-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  button {
+    float: right;
+  }
+}

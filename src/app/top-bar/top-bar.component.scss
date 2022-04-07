@@ -1,0 +1,34 @@
+@import '../../styles.scss';
+
+.top-bar {
+  width: 100%;
+  height: 68px;
+  background-color: $lightBlue;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    color: $white;
+    margin: 0;
+  }
+
+  &__fancy-button {
+    background-color: $white;
+    color: $lightBlue;
+    padding: 5px 10px;
+    border-radius: 2px;
+
+    i.material-icons {
+      color: $lightBlue;
+      padding-right: 4px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
